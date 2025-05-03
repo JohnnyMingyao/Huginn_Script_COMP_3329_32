@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5197307480295165079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630567668694363145}
+  - component: {fileID: 7453376690700374802}
+  m_Layer: 0
+  m_Name: IntroControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &630567668694363145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5197307480295165079}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.05119, y: -3.440434, z: -0.10991932}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7453376690700374802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5197307480295165079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ecd2c4dc21e4be4ab27c05039c0c8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageDisplay: {fileID: 0}
+  textDisplay: {fileID: 0}
+  imageGroup: {fileID: 0}
+  textGroup: {fileID: 0}
+  slides:
+  - image: {fileID: 21300000, guid: 86a045a6950b044278e955824b2d64e9, type: 3}
+    text: 'no one likes weeby. he is weird and arrogant.
+
+      he beileve alien
+      will eventually destroy the earth'
+  - image: {fileID: 21300000, guid: c286913d68b1046a58dedd21feb50ddd, type: 3}
+    text: 'One day he picked up a Prophecy of odin.
+
+      It said that the world
+      will be destroyed and odin can''t change anything'
+  - image: {fileID: 21300000, guid: 71a5f79af01f34e0783e9755146c0975, type: 3}
+    text: '"My god, I just know that the aliens will coming".
+
+      Weeby feels
+      that he is actually odin at this point.'
+  - image: {fileID: 21300000, guid: 77c33b559726948e0b52a218ffdb080c, type: 3}
+    text: 'So he want to mimic odin.
+
+      he want bought his "huginn and muninn"
+      but he is so poor and can just aford a parrot.'
+  - image: {fileID: 21300000, guid: a4d21645dc9ce476ba202e385a6855c7, type: 3}
+    text: '"Since the world is going to be deystroyed, I would rather be the one
+      who know my end but not those fool guy still living normal life!"
+
+      At
+      that day, Weeby sits on his "Hlidskialf".
+
+'
+  fadeDuration: 1
+  displayDuration: 4
+  nextSceneName: Open menu
